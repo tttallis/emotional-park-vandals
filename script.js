@@ -36,7 +36,7 @@ const observer = new IntersectionObserver((entries) => {
 sections.forEach(s => observer.observe(s));
 
 // ===== SECTION ENTRANCE ANIMATIONS =====
-const revealEls = document.querySelectorAll('.release, .about-inner, .contact-inner');
+const revealEls = document.querySelectorAll('.release, .about-inner, .contact-inner, .video-wrap');
 
 revealEls.forEach(el => {
   el.style.opacity = '0';
